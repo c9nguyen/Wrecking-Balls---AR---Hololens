@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4505586, g: 0.5006319, b: 0.5758055, a: 1}
+  m_IndirectSpecularColor: {r: 0.45055848, g: 0.50063163, b: 0.5758049, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -5741,8 +5741,42 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
     type: 2}
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
   m_PrefabInternal: {fileID: 1176602003}
 --- !u!1001 &757736691
+=======
+  m_PrefabInternal: {fileID: 2015351878}
+--- !u!1 &501184065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 501184066}
+  m_Layer: 0
+  m_Name: Monster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &501184066
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 501184065}
+  m_LocalRotation: {x: 0.024482094, y: 0.9983005, z: -0.045491792, w: -0.026968531}
+  m_LocalPosition: {x: -0.252, y: -0.101, z: 1.662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 644517550}
+  m_Father: {fileID: 1679488689}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 5.0930004, y: 183.13399, z: 2.8690002}
+--- !u!1001 &501335786
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -5784,8 +5818,72 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3d0fa1645b2b1a4398aca020e52925e, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
 --- !u!1 &758230625
 GameObject:
+=======
+--- !u!1 &525973326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 525973327}
+  - 33: {fileID: 525973330}
+  - 64: {fileID: 525973329}
+  - 23: {fileID: 525973328}
+  m_Layer: 0
+  m_Name: LocationPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525973327
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525973326}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.008, y: 0, z: 0}
+  m_LocalScale: {x: 0.060000002, y: 0.6, z: 0.060000002}
+  m_Children: []
+  m_Father: {fileID: 1679488689}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &525973328
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525973326}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &525973329
+MeshCollider:
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6047,9 +6145,53 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
   m_GameObject: {fileID: 843549582}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &845375645
+=======
+  m_GameObject: {fileID: 609003655}
+  m_LocalRotation: {x: 0, y: -0.21899481, z: 0, w: 0.97572607}
+  m_LocalPosition: {x: 0.016, y: 0, z: -0.134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1529067019}
+  - {fileID: 1362305748}
+  m_Father: {fileID: 698029864}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &644517549 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+  m_PrefabInternal: {fileID: 1085950595}
+--- !u!4 &644517550 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+  m_PrefabInternal: {fileID: 1085950595}
+--- !u!95 &644517551
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 644517549}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb03cef34097a1940b7e0631ec26400f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &652690734 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 501335786}
+--- !u!1001 &662363610
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6876,8 +7018,133 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
     type: 2}
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
   m_PrefabInternal: {fileID: 609485948}
 --- !u!1001 &1121191231
+=======
+  m_PrefabInternal: {fileID: 337224218}
+--- !u!4 &1037169357 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 878906273}
+--- !u!4 &1054235269 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1096768086}
+--- !u!1001 &1085950595
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 501184066}
+    m_Modifications:
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.305
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.219
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.599
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.09929821
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0017230902
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.01270907
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9949751
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6059b61b7e61984488b2df8fc77ccb2e, type: 2}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1386532.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 814687.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 347579.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.8699865
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -2.6049364
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.027466392
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9897385
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.13625021
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 164.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.03315213
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.529
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.343
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.051000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400066, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.416
+      objectReference: {fileID: 0}
+    - target: {fileID: 400070, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 355.86014
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9db7e57dee7fe04da2e8581bbb7f6ae, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1001 &1096768086
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10335,7 +10602,11 @@ Transform:
   - {fileID: 698029864}
   - {fileID: 1183502430}
   - {fileID: 1767539862}
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
   - {fileID: 559052597}
+=======
+  - {fileID: 501184066}
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
   m_Father: {fileID: 1768632365}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12654,7 +12925,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8cba535627deaad4a90af772ca9c7c3f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d7c3d2a66af561b469fe177680a955bc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -12822,7 +13093,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1769189835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13043,12 +13314,31 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30facaaa1dbbb95449f9c14ca34194f8, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD:Origami/Assets/Scenes/Origami.unity
 --- !u!4 &1894239889 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013067291936, guid: 30facaaa1dbbb95449f9c14ca34194f8,
     type: 2}
   m_PrefabInternal: {fileID: 1759198143}
 --- !u!1001 &1898049905
+=======
+--- !u!1 &1953103000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 181504, guid: 950856a75a6a14b48b5923bc525a7a07, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 698029864}
+  m_Layer: 0
+  m_Name: Building
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1001 &1976331530
+>>>>>>> 189447091bb7dac6c06cd6f1860c3b851f4b2282:Origami/Assets/Origami.unity
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
