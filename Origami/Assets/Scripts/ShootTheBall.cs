@@ -24,7 +24,7 @@ public class ShootTheBall : MonoBehaviour
         if (shot)
             resetTime++;
 
-        if (resetTime >= 100)
+        if (resetTime >= 150)
         {
             shot = false;
             //Destroy(this.GetComponent<Rigidbody>());

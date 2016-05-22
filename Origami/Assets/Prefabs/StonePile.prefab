@@ -24,6 +24,7 @@ GameObject:
   - 23: {fileID: 23000013731908746}
   - 54: {fileID: 54000013087271102}
   - 114: {fileID: 114000010726501204}
+  - 114: {fileID: 114000013055016630}
   m_Layer: 0
   m_Name: StonePile
   m_TagString: Untagged
@@ -39,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1000013239945470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.318, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.5, z: 0.1}
+  m_LocalScale: {x: 0.3, y: 1.5, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -117,3 +118,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea8d6ff5f841f84382f401c5a321e83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000013055016630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013239945470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a183a04f38a4448a8823122d6c17aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  smaller: {fileID: 1000010629727662, guid: 6c2ef7fb430fb1d4297c1cbd0c6bbb7e, type: 2}
