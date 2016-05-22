@@ -23,7 +23,6 @@ public class Parts : MonoBehaviour {
 
     public void OnReset()
     {
-
         // Put the sphere back into its original local position.
         this.transform.localPosition = originalPosition;
         this.transform.localRotation = originalRotation;

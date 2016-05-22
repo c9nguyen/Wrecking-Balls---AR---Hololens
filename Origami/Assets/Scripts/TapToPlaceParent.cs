@@ -14,6 +14,7 @@ public class TapToPlaceParent : MonoBehaviour
     // Called by GazeGestureManager when the user performs a Select gesture
     void OnSelect()
     {
+
         // On each Select gesture, toggle whether the user is in placing mode.
         Build();
     }
@@ -24,6 +25,8 @@ public class TapToPlaceParent : MonoBehaviour
         GetComponent<Raising>().Raise();
         building.SetActive(true);
         placing = false;
+
+
     }
 
     // Update is called once per frame

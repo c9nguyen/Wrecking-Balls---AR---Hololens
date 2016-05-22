@@ -9,6 +9,9 @@ public class Raising : MonoBehaviour {
     public GameObject locationPlane;
     public GameObject smoke1;
     public GameObject smoke2;
+    public GameObject ballHolder;
+    public GameObject ball;
+    public GameObject flag;
 
     bool raising;
 
@@ -35,6 +38,15 @@ public class Raising : MonoBehaviour {
                     building.GetComponent<Collider>().enabled = true;
                     building.GetComponent<Rigidbody>().useGravity = true;
                 }
+
+                buildings = GameObject.FindGameObjectsWithTag("Stable");
+
+                foreach (GameObject building in buildings)
+                {
+                    building.GetComponent<Collider>().enabled = true;
+                    building.GetComponent<Stable>().StableMode();
+                    DestroyImmediate(GetComponent<Rigidbody>());
+                }
             }
         }
 	}
@@ -42,9 +54,12 @@ public class Raising : MonoBehaviour {
     public void Raise()
     {
         locationPlane.SetActive(false);
+        flag.SetActive(false);
 
         raising = true;
         smoke1.SetActive(true);
         smoke2.SetActive(true);
+        ballHolder.SetActive(true);
+        ball.SetActive(true);
     }
 }

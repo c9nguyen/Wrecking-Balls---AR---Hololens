@@ -35,6 +35,10 @@ public class PartsHealth : MonoBehaviour {
                 otherCube.Damage(momentum);
             }
 
+            if (other.gameObject.tag == "Balls") {
+                Damage(other.gameObject.GetComponent<ShootTheBall>().damage);
+            }
+
         }
         else
         {

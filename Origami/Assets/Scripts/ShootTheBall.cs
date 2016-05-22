@@ -3,11 +3,16 @@ using System.Collections;
 
 public class ShootTheBall : MonoBehaviour
 {
+    public float damage;
+    public float force;
+
     float resetTime = 0;
+    bool shot = false;
+    float reset = 150;
 
     Vector3 originalPosition;
     Quaternion originalRotation;
-    bool shot = false;
+
 
     // Use this for initialization
     void Start()
@@ -24,7 +29,7 @@ public class ShootTheBall : MonoBehaviour
         if (shot)
             resetTime++;
 
-        if (resetTime >= 150)
+        if (resetTime >= reset)
         {
             shot = false;
             //Destroy(this.GetComponent<Rigidbody>());
@@ -47,7 +52,7 @@ public class ShootTheBall : MonoBehaviour
             originalPosition = this.transform.localPosition;
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
             rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
-            rigidbody.AddForce(Camera.main.transform.forward * 500);
+            rigidbody.AddForce(Camera.main.transform.forward * force);
             shot = true;
         }
     }

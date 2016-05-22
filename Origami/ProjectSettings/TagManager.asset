@@ -7,6 +7,7 @@ TagManager:
   - Knockable
   - Building
   - Balls
+  - Stable
   layers:
   - Default
   - TransparentFX
