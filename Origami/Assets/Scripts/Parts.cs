@@ -21,11 +21,6 @@ public class Parts : MonoBehaviour {
 	
 	}
 
-    public void Save()
-    {
-
-    }
-
     public void OnReset()
     {
 
